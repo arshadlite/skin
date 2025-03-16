@@ -20,8 +20,8 @@ def load_model_from_drive(model_url):
         return None
 
 # Google Drive Model Links (Update with your actual links)
-SKIN_TYPE_MODEL_URL = "https://drive.google.com/file/d/1edsi07yWCjO0E9JwR9sTZITfY8e3SrVG/view?usp=drive_link"
-SKIN_DISEASE_MODEL_URL = "https://drive.google.com/file/d/1Q47ojUfegyHNvj3Fh6mHAFyeQcEeYKiN/view?usp=drive_link"
+SKIN_TYPE_MODEL_URL = "https://drive.google.com/uc?export=download&id=1edsi07yWCjO0E9JwR9sTZITfY8e3SrVG"
+SKIN_DISEASE_MODEL_URL = "https://drive.google.com/uc?export=download&id=1Q47ojUfegyHNvj3Fh6mHAFyeQcEeYKiN"
 
 # Load the models
 st.write("⏳ Loading Models... This may take a while.")
